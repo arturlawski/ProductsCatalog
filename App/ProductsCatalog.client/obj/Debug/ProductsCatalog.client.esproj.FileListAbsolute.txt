@@ -1,0 +1,4 @@
+C:\Users\Komputer\source\repos\WebApplication7\AngularApp1\angularapp1.client\obj\Debug\ProductsCatalog.client.esproj.CoreCompileInputs.cache
+C:\Users\Komputer\source\repos\WebApplication7\App\ProductsCatalog.client\obj\Debug\ProductsCatalog.client.esproj.CoreCompileInputs.cache
+C:\Users\Komputer\Desktop\LASTTTT\App\ProductsCatalog.client\obj\Debug\ProductsCatalog.client.esproj.CoreCompileInputs.cache
+C:\Users\Komputer\Desktop\MediaExpert.Abstractions\App\ProductsCatalog.client\obj\Debug\ProductsCatalog.client.esproj.CoreCompileInputs.cache

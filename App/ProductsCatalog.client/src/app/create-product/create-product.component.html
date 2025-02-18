@@ -1,0 +1,24 @@
+<div class="form-container">
+  <div class="form" [formGroup]="formGroup">
+    <div class="field-description">Nazwa</div>
+    <input pInputText formControlName="name" placeholder="Wpisz nazwę" class="p-inputtext">
+    <p-message *ngIf="formGroup.controls.name?.hasError('required') && showErrors" severity="error" text="Wymagany"></p-message>
+    <p-message *ngIf="formGroup.controls.name?.hasError('minlength') && showErrors" severity="error" text="Musi zawierać co najmniej 3 znaki"></p-message>
+
+    <div class="field-description">Kod</div>
+    <input pInputText formControlName="code" placeholder="Wpisz kod" class="p-inputtext">
+    <p-message *ngIf="formGroup.controls.code?.hasError('required') && showErrors" severity="error" text="Wymagany"></p-message>
+    <p-message *ngIf="formGroup.controls.code?.hasError('minlength') && showErrors" severity="error" text="Musi zawierać co najmniej 3 znaki"></p-message>
+
+    <div class="field-description">Cena PLN</div>
+    <p-inputNumber formControlName="price" [min]="1" placeholder="Wpisz cenę" class="p-inputnumber" mode="decimal" [useGrouping]="false"></p-inputNumber>
+    <p-message *ngIf="formGroup.controls.price?.hasError('required') && showErrors" severity="error" text="Wymagany"></p-message>
+    <p-message *ngIf="formGroup.controls.price?.hasError('min') && showErrors" severity="error" text="Cena musi być większa od 1 PLN"></p-message>
+
+
+    <div class="button-container">
+      <p-button label="Dodaj produkt" icon="pi p-inputNumber" class="create-button" (click)="submit()"></p-button>
+      <p-button label="Katalog" icon="pi pi-plus" class="create-button" (click)="redirectToCatalog()"></p-button>
+    </div>
+  </div>
+</div>

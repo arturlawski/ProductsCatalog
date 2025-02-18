@@ -1,0 +1,1296 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\AngularApp1\\AngularApp1.Server\\AngularApp1.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\AngularApp1\\AngularApp1.Server\\AngularApp1.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\AngularApp1\\AngularApp1.Server\\AngularApp1.Server.csproj",
+        "projectName": "AngularApp1.Server",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\AngularApp1\\AngularApp1.Server\\AngularApp1.Server.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\AngularApp1\\AngularApp1.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Targets\\MediaExpert.Targets.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Targets\\MediaExpert.Targets.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaProxy": {
+              "target": "Package",
+              "version": "[9.*-*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Commands\\Commands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Commands\\Commands.csproj",
+        "projectName": "Commands",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Commands\\Commands.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Commands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Rebus": {
+              "target": "Package",
+              "version": "[8.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Database\\MediaExpert.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Database\\MediaExpert.Database.csproj",
+        "projectName": "MediaExpert.Database",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Database\\MediaExpert.Database.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\EFCore\\EFCore.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\EFCore\\EFCore.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Domain\\MediaExpert.Domain.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Domain\\MediaExpert.Domain.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Requesting.Abstractions\\Requesting.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Requesting.Abstractions\\Requesting.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\EFCore\\EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\EFCore\\EFCore.csproj",
+        "projectName": "EFCore",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\EFCore\\EFCore.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Exeptions\\Exeptions.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Exeptions\\Exeptions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj",
+        "projectName": "Events",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Exeptions\\Exeptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Exeptions\\Exeptions.csproj",
+        "projectName": "Exeptions",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Exeptions\\Exeptions.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Exeptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture.Automapper\\Infrastracture.Automapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture.Automapper\\Infrastracture.Automapper.csproj",
+        "projectName": "Infrastracture.Automapper",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture.Automapper\\Infrastracture.Automapper.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture.Automapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture\\Infrastracture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture\\Infrastracture.csproj",
+        "projectName": "Infrastracture",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture\\Infrastracture.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Database\\MediaExpert.Database.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Database\\MediaExpert.Database.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Application\\MediaExpert.Application.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Application\\MediaExpert.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Abstractions\\MediaExpert.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Abstractions\\MediaExpert.Abstractions.csproj",
+        "projectName": "MediaExpert.Abstractions",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Abstractions\\MediaExpert.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Commands\\Commands.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Commands\\Commands.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Queries\\Queries.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Queries\\Queries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "NJsonSchema": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Application\\MediaExpert.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Application\\MediaExpert.Application.csproj",
+        "projectName": "MediaExpert.Application",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Application\\MediaExpert.Application.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Commands\\Commands.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Commands\\Commands.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture.Automapper\\Infrastracture.Automapper.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture.Automapper\\Infrastracture.Automapper.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Domain\\MediaExpert.Domain.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Domain\\MediaExpert.Domain.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Queries\\Queries.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Queries\\Queries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Domain\\MediaExpert.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Domain\\MediaExpert.Domain.csproj",
+        "projectName": "MediaExpert.Domain",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Domain\\MediaExpert.Domain.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Exeptions\\Exeptions.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Exeptions\\Exeptions.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Abstractions\\MediaExpert.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Abstractions\\MediaExpert.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Targets\\MediaExpert.Targets.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Targets\\MediaExpert.Targets.csproj",
+        "projectName": "MediaExpert.Targets",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Targets\\MediaExpert.Targets.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Targets\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Database\\MediaExpert.Database.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Database\\MediaExpert.Database.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture.Automapper\\Infrastracture.Automapper.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture.Automapper\\Infrastracture.Automapper.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture\\Infrastracture.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Infrastracture\\Infrastracture.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Application\\MediaExpert.Application.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\MediaExpert.Application\\MediaExpert.Application.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\OperationContext\\OperationContext.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\OperationContext\\OperationContext.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Requesting.Abstractions\\Requesting.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Requesting.Abstractions\\Requesting.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\OperationContext\\OperationContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\OperationContext\\OperationContext.csproj",
+        "projectName": "OperationContext",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\OperationContext\\OperationContext.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\OperationContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Queries\\Queries.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Queries\\Queries.csproj",
+        "projectName": "Queries",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Queries\\Queries.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Queries\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Requesting.Abstractions\\Requesting.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Requesting.Abstractions\\Requesting.Abstractions.csproj",
+        "projectName": "Requesting.Abstractions",
+        "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Requesting.Abstractions\\Requesting.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Komputer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Requesting.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Komputer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Commands\\Commands.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Commands\\Commands.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Events\\Events.csproj"
+              },
+              "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Queries\\Queries.csproj": {
+                "projectPath": "C:\\Users\\Komputer\\source\\repos\\WebApplication7\\Queries\\Queries.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

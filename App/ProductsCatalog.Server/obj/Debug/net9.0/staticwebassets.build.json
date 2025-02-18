@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "HNGKhY47hogfExh7p0n6glPitlUmWVIGj771tiUgtRo=",
+  "Source": "ProductsCatalog.Server",
+  "BasePath": "_content/ProductsCatalog.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Komputer\\Desktop\\MediaExpert.Abstractions\\App\\ProductsCatalog.client\\ProductsCatalog.client.esproj",
+      "Version": 2,
+      "Source": "ProductsCatalog.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

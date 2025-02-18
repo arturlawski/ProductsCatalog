@@ -1,0 +1,25 @@
+<div class="content">
+  <p-table [value]="products" [paginator]="true" [rows]="limit" [totalRecords]="totalProductsCount"
+           (onPageChange)="onPaginatorClicked($event)" class="products-table">
+
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Kod</th>
+        <th>Nazwa</th>
+        <th>Cena</th>
+        <th>ID</th>
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-product>
+      <tr>
+        <td>{{product.code}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.price}} PLN</td>
+        <td>{{product.id}}</td>
+      </tr>
+    </ng-template>
+
+  </p-table>
+  <p-button label="Dodaj produkt" icon="pi pi-plus" class="create-button" (click)="redirectToCreate()"></p-button>
+</div>
